@@ -1,0 +1,691 @@
+.App {
+  text-align: center;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  height: 100vh;
+}
+.Sidebar{
+  
+  position: absolute;
+  width: 315px;
+  height: 800px;
+  left: 0px;
+  top: 0px;
+  
+  
+  background: linear-gradient(180deg, #EBC7F4 0%, rgba(235, 199, 244, 0) 100%);
+  
+}
+
+.icon {
+  display: flex;
+  align-items: center;
+  margin-bottom: 60px;
+  position: relative; /* Added position property */
+  left: 20px;
+  margin-top: 75px;
+}
+
+.icon svg {
+  margin-right: 10px;
+  color: #785FBE;
+  font-size: 20px;
+  position: relative; /* Added position property */
+  left: 2.2%;
+}
+
+.icon span {
+  color: #785FBE;
+  font-size: 16px;
+}
+
+.header{
+  position: absolute;
+        width: 960px;
+        height: 270px;
+        left: 350px;
+        top: 20px;
+        background: #DFA7ED;
+        border-radius: 30px;
+       
+}
+/* Styling for the card container */
+.card {
+  /* Rectangle 9 */
+
+position: absolute;
+width: 250px;
+height: 150px;
+left: 349px;
+top: 350px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+}
+
+.card2{
+  /* Rectangle 15 */
+
+position: absolute;
+width: 250px;
+height: 150px;
+left: 704px;
+top: 350px;
+
+background: #FFE3F7;
+border-radius: 20px;
+
+}
+
+
+.card3{
+  /* Rectangle 15 */
+/* Rectangle 11 */
+
+position: absolute;
+width: 250px;
+height: 150px;
+left: 1064px;
+top: 350px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+
+}
+/* Rectangle 12 */
+.card4{
+position: absolute;
+width: 250px;
+height: 150px;
+left: 349px;
+top: 550px;
+
+background: #FFE3F7;
+border-radius: 30px;
+}
+.card5{
+  /* Rectangle 13 */
+
+/* Rectangle 13 */
+
+position: absolute;
+width: 250px;
+height: 150px;
+left: 709px;
+top: 550px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+
+}
+.card6{
+  /* Rectangle 14 */
+
+position: absolute;
+width: 250px;
+height: 150px;
+left: 1060px;
+top: 550px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+}
+
+.text{
+  /* Breakfast */
+
+position: absolute;
+width: 156px;
+height: 42px;
+left: 10px;
+top: 50px;
+
+
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 42px;
+/* identical to box height */
+
+color: #D657B2;
+
+
+}
+.diet{
+  /* undraw_diet_ghvw 1 */
+
+position: absolute;
+width: 20px;
+height: 50px;
+left: 1000px;
+top: 5px;
+
+
+
+}
+.headerText{
+  /* What will you like to cook today? */
+
+position: absolute;
+width: 500px;
+height: 65px;
+left: 70px;
+top: 20px;
+
+font-family: 'Margarine',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 65px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.subtext{
+  /* Explore our various categories of recipes */
+
+position: absolute;
+width: 608px;
+height: 44px;
+left: 70px;
+top: 90px;
+
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 44px;
+/* identical to box height */
+
+color: #FFFFFF;
+
+
+}
+.grill{
+  /* undraw_barbecue_3x93 (1) 1 */
+
+position: absolute;
+width: 348.07px;
+height: 300px;
+left: 700px;
+top: 24px;
+
+
+
+}
+
+
+.card7{
+  /* unsplash:zcUgjyqEwe8 */
+
+position: absolute;
+width: 200px;
+height: 150px;
+left: 347px;
+top: 350px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+background: #FFE3F7;
+
+}
+.card8{
+  width: 200px;
+  position: absolute;
+  height: 150px;
+left: 700px;
+top: 350px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+background: #FFE3F7;
+
+}
+.card9{
+  width: 200px;
+  position: absolute;
+  height: 150px;
+left: 1000px;
+top: 350px;
+filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+border-radius: 30px;
+background: #FFE3F7;
+
+
+}
+.card10{
+  position: absolute;
+  width: 200px;
+  height: 150px;
+  left: 347px;
+  top: 550px;
+  
+  background: #FFE3F7;
+  border-radius: 30px;
+  
+
+
+}
+.card11{
+  position: absolute;
+width: 200px;
+height: 150px;
+left: 700px;
+top: 550px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+
+}
+.card12{
+  position: absolute;
+width: 200px;
+height: 150px;
+left: 1000px;
+top: 550px;
+
+background: #FFE3F7;
+border-radius: 30px;
+
+}
+
+.text0{
+  position: absolute;
+width: 100px;
+height: 42px;
+left: 60px;
+top: 130px;
+
+
+font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 42px;
+/* identical to box height */
+
+color: #D657B2;
+}
+.logo{
+  /* fixrecipe */
+
+/* fixrecipe */
+
+position: absolute;
+width: 128px;
+height: 43px;
+left: 90px;
+top: 0px;
+
+font-family: 'Margarine',sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 32px;
+line-height: 43px;
+/* identical to box height */
+
+color: #c125e8;
+
+
+
+
+}
+
+
+
+
+
+
+
+.like{
+  /* undraw_Loving_it_re_jfh4 (6) 1 */
+
+position: absolute;
+width: 300px;
+height: 200px;
+left: 400px;
+top: 20px;
+
+
+
+}
+.cardFav{
+  /* Rectangle 25 */
+
+position: absolute;
+width: 700px;
+height: 300px;
+left: 5px;
+top: 450px;
+
+background: #FFE3F7;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 40px;
+
+}
+.favs{
+  /* Favorites */
+
+position: absolute;
+width: 415px;
+height: 129px;
+left: 220px;
+top: 350px;
+
+font-family: 'Margarine',sans-serif;
+font-style: normal;
+font-weight: 300;
+font-size: 80px;
+line-height: 129px;
+/* identical to box height */
+
+color: #D657B2;
+
+
+}
+.favsText{
+  /* You don’t have any favorites . Let’s explore the best recipes for your self. */
+
+position: absolute;
+width: 1057px;
+height: 88px;
+left: 42px;
+top: 550px;
+
+font-family: 'Montserrat', sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 44px;
+
+color: #D657B2;
+
+
+}
+.btn{
+  /* Rectangle 4 */
+  
+      position: absolute;
+      width: 242px;
+      height: 48px;
+      left: 200px;
+      top: 650px;
+  
+      background: #C549A2;
+      box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+      border-radius: 50px;
+}
+.text3{
+  /* Upload Now */
+  
+      position: absolute;
+      width: 140px;
+      height: 33px;
+      left: 60px;
+      top: -14px;
+  
+      font-family: 'Manrope',sans-serif;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      line-height: 33px;
+      /* identical to box height */
+  
+      color: #FFFFFF;
+}
+/* CSS for FormComponent */
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f7f7f7;
+  top:14px ;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="file"],
+input[type="text"] {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+button[type="submit"] {
+  background-color: #007bff;
+  color: white;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #0056b3;
+}
+
+/* salifu's css */
+.Sidebar2 {
+  position: absolute;
+  width: 1000px;
+  height: 250px;
+  left: 380px;
+  top: 76px;
+  background: #D657B2;
+  border-radius: 30px;
+
+}
+
+.hero {
+  /* Rectangle 9 */
+
+  position: absolute;
+  width: 505px;
+  height: 399px;
+  left: 347px;
+  top: 350px;
+
+  background: #FFE3F7;
+  border-radius: 30px;
+}
+
+.hero1 {
+  /* Rectangle 16 */
+
+  position: absolute;
+  width: 505px;
+  height: 399px;
+  left: 896px;
+  top: 350px;
+
+  background: #FFE3F7;
+  border-radius: 30px;
+}
+
+.search {
+  /* Rectangle 2 */
+
+  position: absolute;
+  width: 900px;
+  height: 42px;
+  left: 422px;
+  top: 20px;
+
+  background: rgba(245, 245, 245, 0.91);
+  border-radius: 50px;
+}
+
+.text01 {
+  /* Add your own recipe */
+
+  position: absolute;
+  width: 673px;
+  height: 58px;
+  left: 40px;
+  top: -50px;
+
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 44px;
+  line-height: 78px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+.text02 {
+  position: absolute;
+  width: 673px;
+  height: 58px;
+  left: 40px;
+  top: 50px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 23px;
+  /* identical to box height */
+
+  color: #FFFFFF;
+}
+
+/* Upload your own home-made recipe, and share it with other members of our community */
+
+/* Rectangle 3 */
+
+.btn01 {
+  /* Rectangle 4 */
+
+  position: absolute;
+  width: 242px;
+  height: 48px;
+  left: 35px;
+  top: 143px;
+
+  background: #FFE3F7;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+}
+
+.text03 {
+  /* Upload Now */
+
+  position: absolute;
+  width: 140px;
+  height: 33px;
+  left: 60px;
+  top: -14px;
+
+  font-family: 'Manrope';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 33px;
+  /* identical to box height */
+
+  color: #C549A2;
+}
+.recipe-detail{
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  margin: 20px;
+  background: #FFE3F7;
+
+}
+.recipe-image img{
+  max-width: 300px;
+  height: auto;
+  margin-right: 20px;
+  border-radius: 20px;
+}
+.recipe-info{
+  flex: 1;
+}
+.recipe-ingredients h2 
+.recipe-instructions h2{
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+  font-family: 'Montserrat',sans-serif;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+
+  color: #C549A2;
+
+}
+.recipe-ingredients ul 
+.recipe-instructions ol{
+  list-style: none;
+  padding: 0;
+}
+.recipe-ingredients li
+.recipe-instructions li{
+  margin-bottom: 5px;
+}
+/* UserProfile.css */
+
+/* Center the user profile vertically and horizontally */
+.user-profile {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.profile-header {
+  text-align: center;
+}
+
+.avatar {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+}
+
+.name {
+  font-size: 24px;
+  margin: 10px 0;
+}
+
+.username {
+  color: #666;
+}
+
+.profile-details {
+  margin-top: 20px;
+}
+
+.profile-details h2 {
+  font-size: 20px;
+}
+
+.profile-details p {
+  font-size: 16px;
+  margin: 8px 0;
+}
